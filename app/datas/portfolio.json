@@ -1,0 +1,63 @@
+[
+	{
+		"name" : "Wadada Community",
+		"tags" : "CodeIgniter, PHP",
+		"description" : "Projet réalisé en Master 1 Web dans le but de créer un réseau social spécifique au monde du sound-system Reggae/Dub. Pas de mise en ligne prévue pour la version actuelle.",
+		"category" : "PHP",
+		"thumb" : "paarkin.png",
+		"picture" : "paarkin.png"
+	},
+	{
+		"name" : "Moka.io",
+		"tags" : "NodeJS, MEAN",
+		"category" : "NodeJS",
+		"thumb" : "paarkin.png",
+		"picture" : "paarkin.png"
+	},
+	{
+		"name" : "Gunther & The Hunters",
+		"tags" : "NodeJS, Appli mobile",
+		"category" : "NodeJS",
+		"thumb" : "paarkin.png",
+		"picture" : "paarkin.png"
+	},
+	{
+		"name" : "Paarkin",
+		"tags" : "NodeJS, Appli mobile",
+		"category" : "NodeJS",
+		"thumb" : "paarkin.png",
+		"picture" : "paarkin.png",
+		"url" : "http://paark.in/"
+	},
+	{
+		"name" : "Tour du Haut-Moulin",
+		"tags" : "Prestashop, E-commerce",
+		"category" : "Prestashop",
+		"thumb" : "tourduhautmoulin.jpg",
+		"picture" : "tourduhautmoulin.jpg",
+		"url" : "http://tourduhautmoulin.com/"
+	},
+	{
+		"name" : "Upside Developpement",
+		"tags" : "WebDesign, WordPress",
+		"category" : "WordPress",
+		"thumb" : "upside.jpg",
+		"picture" : "paarkin.png",
+		"url" : "http://upside-developpement.fr/"
+	},
+	{
+		"name" : "CFM",
+		"tags" : "Site mobile, AngularJS",
+		"category" : "JavaScript",
+		"thumb" : "cfm.jpg",
+		"picture" : "cfm.jpg",
+		"url" : "http://m.cfm33.com"
+	},
+	{
+		"name" : "Statistiqu.es",
+		"tags" : "CodeIgniter, PHP, Prestashop",
+		"category" : "PHP",
+		"thumb" : "paarkin.png",
+		"picture" : "paarkin.png"
+	}
+]
