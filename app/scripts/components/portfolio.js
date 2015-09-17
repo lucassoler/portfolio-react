@@ -50,7 +50,7 @@ export default class extends React.Component {
       </div>
     }
     return (
-      <div className="Portfolio">
+      <div className="Portfolio wow slideInUp">
         {view}
         <div className="content">
           <h1>Quelque Réalisations récentes</h1>
@@ -73,7 +73,7 @@ export default class extends React.Component {
       voir = <a target="_blank" href={item.url}><i className="material-icons">link</i> Voir</a>;
     }
     return (
-        <li key={index}>
+        <li key={index} className="wow slideInUp">
           <div className="Portfolio-itemPicture" style={divStyle}></div>
           <div className="Portfolio-itemDesc">
             <p>{item.tags}</p>

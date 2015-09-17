@@ -21,6 +21,9 @@ export default class extends React.Component {
 
   }
   componentDidMount() {
+    $('#Navigation').find('li a').click(function() {
+      window.scrollTo(0,0);
+    });
     //Floatable
     var positionElementInPage = $('#NavigationBlock').offset().top;
     $(window).scroll(
