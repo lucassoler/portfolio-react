@@ -1,7 +1,9 @@
 $icon-font-path: "/fonts/bootstrap/";
 @import "bootstrap-sass-official/assets/stylesheets/bootstrap";
+@import "mixins"; 
 @import "reset";
 @import "animate";
+@import "timeline"; 
 html {
   height : 100%;
 
@@ -56,17 +58,6 @@ strong {
     }
   
 }
-
-/**********************************************/
-/* VARIABLES */
-/**********************************************/
-
-$header : #009688;
-$nav : #3F51B5;
-$nav-hover : #5C6BC0;
-$white : white;
-$footer : #212121;
-
 /**********************************************/
 /* HEADER */
 /**********************************************/
@@ -119,13 +110,13 @@ $footer : #212121;
       top : 0;
       left : 0;
       right: 0;
-      z-index: 10;      
+      z-index: 100;      
     }
   }
 
 }
 .navigation-container {
-  z-index: 10;    
+  z-index: 100;    
   text-align : center;
   background-color : $nav;
   color : $white; 
@@ -136,11 +127,23 @@ $footer : #212121;
       content : " ";
     }
     padding : 0 20px;
-    margin: 0 auto;
+    margin: 0 auto;   
+    @media screen and (max-width: $break-middle) {
+      padding : 0;
+    }
     li {
         list-style: none;
         vertical-align:middle; /* On aligne les éléments au milieu */
-         display:inline-block;/* On le remplace au float:left; */
+         display:inline-block;/* On le remplace au float:left; */  
+        .burger-nav {
+          display: none;
+          @media screen and (max-width: $break-middle) {
+            display : block;
+          }
+        } 
+        @media screen and (max-width: $break-middle) {
+          width : 100%;
+        }
     }
   }
   a {
@@ -153,7 +156,11 @@ $footer : #212121;
     transition: all .3s ease-in;
     display:block;
     padding : 20px 20px;
-    color : $white;
+    color : $white;    
+    @media screen and (max-width: $break-middle) {
+      width : 100%;
+      text-align: left;
+    }
     &:hover, &:active, &:focus, &.active {
       text-decoration : none;
       background : $nav-hover;
@@ -179,6 +186,9 @@ $footer : #212121;
     }
     .bloc50 {
       width : 50%;
+      @media screen and (max-width: $break-large) {
+        width : 100%;
+      }
     }
     .bloc100 {
       width : 100%;
@@ -218,6 +228,7 @@ $footer : #212121;
   position : fixed;
   bottom : 0;
   background-color : $footer;
+  z-index: 100;   
   a {
     color : $white;
     font-size : 0.8em;
@@ -228,6 +239,7 @@ $footer : #212121;
     transition: all .3s ease-in;
     &:hover {
         opacity : 1;
+        text-decoration: none;
     }
   }
   padding : 0 20px;
@@ -262,6 +274,10 @@ $footer : #212121;
   width : 25%;
   display: inline-block;
   margin-bottom: 20px;
+
+  @media screen and (max-width: $break-middle) {
+    width : 50%;
+  }
   .chart {
     position: relative;
     margin: 0 auto;
@@ -320,6 +336,14 @@ $footer : #212121;
           margin-right : 20px;
           margin-bottom : 10px;
           margin-top : 20px;
+          -webkit-transition: all .3s ease-in;
+          -moz-transition: all .3s ease-in;
+          -o-transition: all .3s ease-in;
+          transition: all .3s ease-in;
+          &:focus, &:hover {
+            color : $footer;
+            text-decoration: none;
+          }
       }
     
   }

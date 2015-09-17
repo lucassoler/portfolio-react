@@ -10,6 +10,7 @@ export default class extends React.Component {
       <div id="NavigationBlock">
         <div id="Navigation" className="navigation-container">
         	<ul>
+            <li><a href="javascript:void(0);" className="burger-nav"><i className="material-icons">menu</i> Menu</a></li>            
           	<li><a href="#/apropos" className={this.props.route == "apropos" ? 'active' : ''}><i className="material-icons">account_circle</i> A propos</a></li>
             <li><a href="#/parcours" className={this.props.route == "parcours" ? 'active' : ''}><i className="material-icons">verified_user</i> Parcours</a></li>
           	<li><a href="#/portfolio" className={this.props.route == "portfolio" ? 'active' : ''}><i className="material-icons">book</i> Portfolio</a></li>
@@ -37,6 +38,8 @@ export default class extends React.Component {
             }
         }
     );
+    //Responsive    
+    var maxBreakpoint = 490; // maximum
   }
 
 }
