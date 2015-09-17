@@ -93,6 +93,7 @@ strong {
 }
 .Header-bannerDesc {
     font-size: 40px;
+    line-height: 1.2em;
   
 }
 .Header-bannerTitle {
@@ -170,6 +171,77 @@ strong {
   
 }
 
+@media (max-width: $break-middle) {
+  nav + * {
+    position: relative;
+  }
+  /* Theming opened nav */
+  
+  nav ul {
+    /* maximum height */
+    
+    max-height: 20em;
+    overflow: visible;
+    /* translate with hardware acceleration */
+    
+    transform: translateZ(0);
+    -webkit-transition: max-height .4s;
+    transition: max-height .4s, overflow .4s;
+    will-change: max-height, overflow;
+    /* global styles */
+    
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  nav a {
+    display: block;
+  }
+  /* Theming closed nav */
+  
+  nav.is-closed ul {
+    max-height: 0;
+    overflow: hidden;
+  }
+  /* Global styling nav button */
+  
+  nav > button {
+    z-index: 1;
+    background-color: transparent;
+    outline: 0;
+    border: none;
+    cursor: pointer;
+    display: block;
+    width: 100%;
+    text-align: left;
+    padding : 20px 20px;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    -webkit-transition: -webkit-transform .2s;
+    transition: transform .2s;
+    i {
+      font-size : 0.9em!important;
+    }
+    &:hover {
+      text-decoration : none;
+      background : $nav-hover;
+    }
+  }
+  /*  Removing Firefox's dotted outline on button */
+  
+  nav > button::-moz-focus-inner {
+    border: 0;
+  }
+  /* Hide alternate text except from screen readers */
+  
+  .visually-hidden {
+    position: absolute !important;
+    clip: rect(1px, 1px, 1px, 1px);
+    overflow: hidden;
+    height: 1px;
+    width: 1px;
+  }
+}
+
 
 /**********************************************/
 /* CONTENTS */
@@ -217,9 +289,6 @@ strong {
         color : $nav;
       }
     }
-}
-
-.site-container {
 }
 
 .Footer {
@@ -446,19 +515,31 @@ strong {
     background-color: $nav-hover;
     color : $white;
     z-index: -1;
+    @media (max-width: $break-large) {
+      height: 200px;
+    }
     .preview {
       background-color: $white;
       width: 70%;
       height: 100%;
       float: left;
       background-size : cover;
-      background-position : center center;    
+      background-position : center center; 
+
+      @media (max-width: $break-large) {
+        width: 100%;
+      }   
     }
     .info {
       width: 30%;
       padding : 20px;
+      background-color: $nav-hover;
       float: left;
       line-height: 1.2;
+      @media (max-width: $break-large) {
+      
+        width: 100%;
+      }   
       h2 {
         font-size: 1.5em;
         font-weight: bold;
