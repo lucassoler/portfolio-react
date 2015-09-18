@@ -4,60 +4,41 @@
 		"tags" : "CodeIgniter, PHP",
 		"description" : "Projet réalisé en Master 1 Web dans le but de créer un réseau social spécifique au monde du sound-system Reggae/Dub. Pas de mise en ligne prévue pour la version actuelle.",
 		"category" : "PHP",
-		"thumb" : "paarkin.png",
-		"picture" : "paarkin.png"
+		"thumb" : "logo_fin3.png",
+		"picture" : "mockup_annonces-01.jpg"
 	},
 	{
 		"name" : "Moka.io",
 		"tags" : "NodeJS, MEAN",
+		"description" : "Réalisé au cours de stage de fin d'études chez Digin. Gestionnaire de projet en NodeJS avec Socket.io pour la synchronistation des actions en temps réel.",
 		"category" : "NodeJS",
-		"thumb" : "paarkin.png",
-		"picture" : "paarkin.png"
+		"thumb" : "logo_moka.png",
+		"picture" : "moka.jpg"
 	},
 	{
 		"name" : "Gunther & The Hunters",
 		"tags" : "NodeJS, Appli mobile",
+		"description" : "Projet réalisé en Master 2 Web en équipe. Première expérience avec une application MEAN (MongoDB, ExpressJS, AngularJS, NodeJS). Jeu communautaire de course poursuite géolocalisée.",
 		"category" : "NodeJS",
-		"thumb" : "paarkin.png",
-		"picture" : "paarkin.png"
+		"thumb" : "LogoGuntherFinal.jpg",
+		"picture" : "gunther.jpg"
 	},
 	{
 		"name" : "Paarkin",
 		"tags" : "NodeJS, Appli mobile",
+		"description" : "Réalisé au cours du stage de fin d'études dans l'agence Digin. Application mobile communautaire pour déclarer des places disponnibles en ville. Utilisation de Cordova/PhoneGap pour la réalisation du prototype et de NodeJS pour le serveur.",
 		"category" : "NodeJS",
 		"thumb" : "paarkin.png",
-		"picture" : "paarkin.png",
+		"picture" : "paarkin.jpg",
 		"url" : "http://paark.in/"
 	},
 	{
 		"name" : "Tour du Haut-Moulin",
 		"tags" : "Prestashop, E-commerce",
+		"description" : "Site E-Commerce réalisé avec l'agence Digin. Création d'un template avec le framework Prestashop.",
 		"category" : "Prestashop",
 		"thumb" : "tourduhautmoulin.jpg",
-		"picture" : "tourduhautmoulin.jpg",
+		"picture" : "tdhm.jpg",
 		"url" : "http://tourduhautmoulin.com/"
-	},
-	{
-		"name" : "Upside Developpement",
-		"tags" : "WebDesign, WordPress",
-		"category" : "WordPress",
-		"thumb" : "upside.jpg",
-		"picture" : "paarkin.png",
-		"url" : "http://upside-developpement.fr/"
-	},
-	{
-		"name" : "CFM",
-		"tags" : "Site mobile, AngularJS",
-		"category" : "JavaScript",
-		"thumb" : "cfm.jpg",
-		"picture" : "cfm.jpg",
-		"url" : "http://m.cfm33.com"
-	},
-	{
-		"name" : "Statistiqu.es",
-		"tags" : "CodeIgniter, PHP, Prestashop",
-		"category" : "PHP",
-		"thumb" : "paarkin.png",
-		"picture" : "paarkin.png"
 	}
 ]

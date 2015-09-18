@@ -328,6 +328,12 @@ strong {
     width : 20%;
     float : left;
     padding : 5px 0;
+    .iconViadeo {
+        height : 14px;
+        svg {
+  border: 5px solid white;
+        }
+    }
     a {
         font-size : 1em;
         margin-left : 10px;
