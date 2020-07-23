@@ -1,6 +1,22 @@
 [
     {
         "direction" : "l",
+        "type" : "travel",
+        "flag" : "Voyage",
+        "flagLink" : "",
+        "flagTime" : "Juin 2019 - Juin 2020",
+        "description" : "Voyage au travers de l'Europe (Balkans, Grèce, Espagne)"
+    },    
+    {
+        "direction" : "l",
+        "type" : "work",
+        "flag" : "INO",
+        "flagLink" : "https://ino.cx",
+        "flagTime" : "Octobre 2015 - Juin 2019",
+        "description" : "test"
+    },
+    {
+        "direction" : "l",
         "type" : "work",
         "flag" : "Digin",
         "flagLink" : "http://digin.fr",
