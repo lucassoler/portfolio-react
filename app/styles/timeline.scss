@@ -123,6 +123,7 @@
   text-transform: uppercase;
 }
 .flag.school { background-color: #FFC107; }
+.flag.travel { background-color: #16c25c; }
 
 .flag a { text-decoration: none; color: #fff; }
 
@@ -160,6 +161,7 @@
   pointer-events: none;
 }
 .direction-l .flag.school::after { border-left-color: #FFC107; }
+.direction-l .flag.travel::after { border-left-color: #16c25c; }
 
 .direction-r .flag:after {
   content: "";
@@ -175,6 +177,7 @@
   pointer-events: none;
 }
 .direction-r .flag.school::after { border-right-color: #FFC107; }
+.direction-r .flag.travel::after { border-right-color: #16c25c; }
 
 .time-wrapper {
   display: inline;
@@ -284,6 +287,12 @@
     border-right-color: transparent;
     border-left-color: transparent;
     border-bottom-color: #FFC107;
+}
+.direction-l .flag.travel::after,
+.direction-r .flag.travel::after {
+    border-right-color: transparent;
+    border-left-color: transparent;
+    border-bottom-color: #16c25c;
 }
 
 .time-wrapper {

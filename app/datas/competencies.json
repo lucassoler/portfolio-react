@@ -1,31 +1,31 @@
 [
 	{
-		"name" : "PHP",
-		"total" : 90.0
-	},
-	{
 		"name" : "JavaScript",
 		"total" : 90.0
 	},
 	{
-		"name" : "Python",
-		"total" : 40.0
+		"name" : "NodeJS",
+		"total" : 90.0
 	},
 	{
-		"name" : "NodeJS",
-		"total" : 80.0
+		"name" : "AWS",
+		"total" : 70.0
+	},
+	{
+		"name" : "React",
+		"total" : 60.0
 	},
 	{
 		"name" : "AngularJS",
 		"total" : 80.0
 	},
 	{
-		"name" : "CodeIgniter",
+		"name" : "MySQL",
 		"total" : 90.0
 	},
 	{
-		"name" : "Symfony",
-		"total" : 70.0
+		"name" : "ElasticSearch",
+		"total" : 80.0
 	},
 	{
 		"name" : "React",
