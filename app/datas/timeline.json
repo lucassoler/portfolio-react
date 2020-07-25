@@ -1,0 +1,82 @@
+[
+    {
+        "direction" : "r",
+        "type" : "travel",
+        "flag" : "Voyage",
+        "flagLink" : "",
+        "flagTime" : "Juin 2019 - Juin 2020",
+        "description" : "Traversée des Balkans en van (Italie, Slovénie, Croatie, Monténégro, Albanie, Grèce). Escalade, découvertes et rencontres"
+    },    
+    {
+        "direction" : "l",
+        "type" : "work",
+        "flag" : "INO",
+        "flagLink" : "https://ino.cx",
+        "flagTime" : "Octobre 2015 - Juin 2019",
+        "description" : "Développement d’une suite logicielle de gestion des intéractions clients (appels téléphoniques, chats, emails, sms ...)"
+    },
+    {
+        "direction" : "l",
+        "type" : "work",
+        "flag" : "Digin",
+        "flagLink" : "http://digin.fr",
+        "flagTime" : "Mars 2015 - Septembre 2015",
+        "description" : "Stage de fin d'étude (6 mois) dans l'entreprise Digin. Développement des projets internes (application mobile et gestionnaire de projet) et des projets clients (sites mobiles, wordpress, ...)."
+    },
+    {
+        "direction" : "l",
+        "type" : "work",
+        "flag" : "LMDL",
+        "flagLink" : "http://www.le-monde-de-lea.fr/",
+        "flagTime" : "Mars 2014 - Juin 2015",
+        "description" : "Stage en entreprise de 12 Semaines chez Le Monde De Léa. Réalisation d'un outil de synchronistation des stocks entre plusieurs sites Prestashop et développement d'un outil de gestion de demande S.A.V."
+    },
+    {
+        "direction" : "l",
+        "type" : "work",
+        "flag" : "Cymoz",
+        "flagLink" : "http://cymoz.fr/",
+        "flagTime" : "Nov. 2014 - Fev. 2015",
+        "description" : "Stage alterné dans l'entreprise Cymoz au cours de la 2ème année de Master. Développement d'applications Symfony 2 et module Prestashop."
+    },
+    {
+        "direction" : "r",
+        "type" : "school",
+        "flag" : "ESTEI",
+        "flagLink" : "https://estei.fr",
+        "flagTime" : "2014 - 2015",
+        "description" : "Master Infographie Multimédia spécialité Web. WebMarketing, Droit, DataVizualisation, Technologies Web, etc. Premiers pas et perfectionnement sur JavaScript et ses frameworks Front et Back-end au cours des projets."
+    },
+    {
+        "direction" : "l",
+        "type" : "work",
+        "flag" : "Biwibiz",
+        "flagLink" : "http://biwibiz.fr/",
+        "flagTime" : "Mars 2013 - Juin 2013",
+        "description" : "Stage de fin de diplôme (Licence DEESIM - 12 semaines). Refonte du site Biwibiz (Zend Framework) et développement d'un outil de gestion de projet (Codeigniter)."
+    },
+    {
+        "direction" : "r",
+        "type" : "school",
+        "flag" : "ESTEI",
+        "flagLink" : "https://estei.fr",
+        "flagTime" : "2013",
+        "description" : "Bachelor (Licence DEESIM) en Infographie Multimédia. Appretissage de la 3D, Infographie, Flash AS3, Programmation et conception Web, ..."
+    },
+    {
+        "direction" : "l",
+        "type" : "work",
+        "flag" : "EG Digital",
+        "flagLink" : "http://www.egdigital.fr/",
+        "flagTime" : "Mars 2012 - Juin 2012",
+        "description" : "Stage de fin de diplôme (DUT SRC - 10 semaines). Utilisation du framework CodeIgniter et du CMS Prestashop."
+    },
+    {
+        "direction" : "r",
+        "type" : "school",
+        "flag" : "DUT SRC",
+        "flagLink" : "https://iut1.ujf-grenoble.fr/formation-et-metier/dut/metiers-multimedia-et-l-internet",
+        "flagTime" : "2010 - 2012",
+        "description" : "DUT Services et Réseaux de Communication (SRC) réalisé à l'université Joseph Fourier (Grenoble, FR) au début de ma formation. Apprentissage des bases des métiers du Web (langages de programmation, WebDesign, Vidéo, Flash, ...)"
+    }
+]

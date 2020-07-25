@@ -3,6 +3,7 @@ import Header from './header';
 import Footer from './footer';
 import About from './about';
 import Portfolio from './portfolio';
+import Timeline from './timeline';
 
 export default class extends React.Component {
   constructor(props) {
@@ -23,6 +24,7 @@ export default class extends React.Component {
     switch (this.props.route) {
       case 'about': Child = About; break;
       case 'portfolio': Child = Portfolio; break;
+      case 'parcours': Child = Timeline; break;
       default:      Child = About;
     }
     return (

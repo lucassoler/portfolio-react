@@ -50,10 +50,9 @@ export default class extends React.Component {
       </div>
     }
     return (
-      <div className="Portfolio">
+      <div className="Portfolio wow slideInUp">
         {view}
         <div className="content">
-          <h1>Quelque Réalisations récentes</h1>
           <div className="Portfolio-listcategories">
             <a href="javascript:void(0)" onClick={this.getData.bind(this, null)}>Tous</a>
             {this.state.categories.map(this.renderCategories, this)}
@@ -73,7 +72,7 @@ export default class extends React.Component {
       voir = <a target="_blank" href={item.url}><i className="material-icons">link</i> Voir</a>;
     }
     return (
-        <li key={index}>
+        <li key={index} className="wow slideInUp">
           <div className="Portfolio-itemPicture" style={divStyle}></div>
           <div className="Portfolio-itemDesc">
             <p>{item.tags}</p>
@@ -89,8 +88,7 @@ export default class extends React.Component {
   }
   renderCategories(item, index) {
     return (
-      <a key={index} href="javascript:void(0)" onClick={this.getData.bind(this, item)}>{item}</a>    
-
+      <a key={index} href="javascript:void(0)" onClick={this.getData.bind(this, item)}>{item}</a>
     );
   }
   bindData(item) {

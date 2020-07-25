@@ -5,10 +5,10 @@ window.React = React;
 const mountNode = document.getElementById('app');
 
 function render () {
-  var route = window.location.hash.substr(2);
-  React.render(<Home route={route} />, mountNode);
+  	var route = window.location.hash.substr(2);
+  	React.render(<Home route={route} />, mountNode);
 }
-
+new WOW().init();
 
 window.addEventListener('hashchange', render);
 render(); // render initially
