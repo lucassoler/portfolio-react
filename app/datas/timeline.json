@@ -1,11 +1,11 @@
 [
     {
-        "direction" : "l",
+        "direction" : "r",
         "type" : "travel",
         "flag" : "Voyage",
         "flagLink" : "",
         "flagTime" : "Juin 2019 - Juin 2020",
-        "description" : "Voyage au travers de l'Europe (Balkans, Grèce, Espagne)"
+        "description" : "Traversée des Balkans en van (Italie, Slovénie, Croatie, Monténégro, Albanie, Grèce). Escalade, découvertes et rencontres"
     },    
     {
         "direction" : "l",
@@ -13,7 +13,7 @@
         "flag" : "INO",
         "flagLink" : "https://ino.cx",
         "flagTime" : "Octobre 2015 - Juin 2019",
-        "description" : "test"
+        "description" : "Développement d’une suite logicielle de gestion des intéractions clients (appels téléphoniques, chats, emails, sms ...)"
     },
     {
         "direction" : "l",

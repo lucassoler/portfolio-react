@@ -11,7 +11,6 @@ export default class extends React.Component {
   }
   getData() {
     var competencies = require('../../datas/competencies.json');
-    console.log(competencies)
     this.setState({competencies});
   }
   render() {
